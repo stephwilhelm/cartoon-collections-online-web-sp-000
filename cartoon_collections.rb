@@ -1,5 +1,5 @@
-def roll_call_dwarves(dwarfs)
-	dwarfs.each do |dwarf|
+def roll_call_dwarves(dwarves)
+	dwarves.each do |dwarf|
     roll_call << "#{i}. #{dwarf}"
   end
   roll_call
