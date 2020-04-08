@@ -19,7 +19,7 @@ roll_call_dwarves(dwarves)
 planeteer_calls = %w ["earth", "wind", "fire", "water", "heart"]
 
 def summon_captain_planet(planeteer_calls)
-    planeteer_calls.collect { |call| call.capitalize + '!' }
+    planeteer_calls.collect {|call| call.capitalize + '!'}
 end
 
 def long_planeteer_calls# code an argument here
