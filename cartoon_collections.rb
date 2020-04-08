@@ -1,7 +1,5 @@
-def roll_call_dwarves
-  def roll_call_dwarves(array)
+def roll_call_dwarves(array)
 	array.each do |name|
-    return name
   end
 end
 
